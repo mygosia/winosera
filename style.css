@@ -28,10 +28,20 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   padding: 20px;
-  border-bottom: 2px solid #87244C;
-  border-top: 2px solid #87244C;
+  border-bottom: 1px solid #3FB094;
+  border-top: 1px solid #3FB094;
   margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: ;
 }
+h3:after { 
+  content: url(logo1.gif);
+  white-space: pre;
+  padding: 0 30px;
+}
+
+
 
 a {
   text-decoration: none; }
@@ -41,9 +51,10 @@ img {
   height: auto; }
 
 .subtitle {
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding-top: 35px;
+  padding-bottom: 20px;
 }
 
 .clearfix {
@@ -214,7 +225,6 @@ header .row h2 .box {
     text-transform: none;
     font-weight: 300;
     border-bottom: 1px solid #87244C;
-    border-radius: 30%;
    }
 
 .hero .container p {
@@ -224,6 +234,10 @@ header .row h2 .box {
 
 
 /*O NAS */
+
+.onas img {
+  max-height: 400px;
+}
 
 .onas .quot {
   display: flex;
@@ -252,6 +266,10 @@ header .row h2 .box {
   margin: 0 auto;
    }
 
+  .oferta img {
+    max-height: 150px;
+  }
+
 .oferta .member {
   padding: 25px; }
 
@@ -273,8 +291,8 @@ header .row h2 .box {
 
   .contact {
   background-color: #87244C;
-  color: white;
-  text-align: left;
+  color: ;
+  text-align: center;
   font-weight: 200;
   font-size: 10px;
   font-size: 1rem;
@@ -286,7 +304,9 @@ header .row h2 .box {
 
   .contact .row {
     width: 80%;
-    margin: 30px auto; }
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #D2E2BE; }
 
 
 /*MAPA*/
