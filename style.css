@@ -33,7 +33,6 @@ h3 {
   margin-bottom: 20px;
   font-size: 35px;
   font-weight: 300;
-  line-height: ;
 }
 h3:after { 
   content: url(logo1.gif);
@@ -275,8 +274,7 @@ header .row h2 .box {
 
   .oferta .member h4 {
     padding: 8px 0;
-    font-weight: 400;
-    text-transform: capitalize; }
+    font-weight: 400; }
 
   .oferta .member h6 {
     color: #EA5A5A;
@@ -291,7 +289,6 @@ header .row h2 .box {
 
   .contact {
   background-color: #87244C;
-  color: ;
   text-align: center;
   font-weight: 200;
   font-size: 10px;
@@ -370,6 +367,7 @@ header .row h2 .box {
     width: 100%;
     height: auto; }
 
+
   input[type="checkbox"] + label {
     font-size: 25px;
     cursor: pointer;
@@ -385,6 +383,7 @@ header .row h2 .box {
   header li:hover {
     border: 2px solid white;
     cursor: pointer;}
+  }
 
 
 @media (max-width: 767px) {
@@ -455,14 +454,8 @@ header .row h2 .box {
   header li:active {
     background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer; }
-  .gallery .layer:active {
-    opacity: 1;
-    cursor: pointer; }
-  .staff .member .social .fa:active {
-    color: white;
-    background-color: #EA5A5A;
-    border: 2px solid #EA5A5A;
-    cursor: pointer; }
-  .social .fa:active {
-    background-color: #EA5A5A;
-    cursor: pointer; } }
+
+  .adress, .hours, .phone {
+    padding: 20px;
+  }
+  }
