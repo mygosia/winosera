@@ -1,10 +1,10 @@
 .color1 { color: #000000}
-.color2 { color: #9fc16e}
-.color3 { color: #e4517b}
-.color4 { color: #e04871}
-.color5 { color: #dbdbc8}
-.color6 { color: #e88c9b}
-.color7 { color: #f19fa5}
-.color8 { color: #4c4c4c}
-.color9 { color: #db7296}
-.color10 { color: #4d4d4d}
+.color2 { color: #9fc16e} cz
+.color3 { color: #e4517b} cr
+.color4 { color: #e04871}--
+.color5 { color: #dbdbc8}--
+.color6 { color: #e88c9b} r
+.color7 { color: #f19fa5} jr
+.color8 { color: #4c4c4c} grafit
+.color9 { color: #db7296}zr
+.color10 { color: #4d4d4d} --
