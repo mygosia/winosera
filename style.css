@@ -254,7 +254,7 @@ header .row h2 .box {
 /*O NAS */
 
 .onas .row  {
-  background-color: #e88c9b;
+  background-color: #B5B690;
 }
 .onas .quot {
   display: flex;
@@ -292,12 +292,14 @@ header .row h2 .box {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(241, 159, 165, 0.8);
+  background-color: rgba(143,8,83, 0.8);
   opacity: 0;
   z-index: 10;
   transition: 0.7s;
   border-right: 1px solid white;
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid white;
+  color: white; }
+
 
 .oferta img {
   display: block;
@@ -339,29 +341,42 @@ header .row h2 .box {
   /*Kontakt*/
 
   .contact {
-  background-color: #87244C;
+  background-color: #B5B690;
   text-align: center;
   font-weight: 200;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  align-items: flex-start; }
+  align-items: flex-start;
+  color: darkslategrey; }
 
   .contact .row {
     width: 80%;
     margin: 30px auto;
     padding: 20px;
-    background-color: #D2E2BE; }
+    background-color: #F1F1DC; }
 
 
   .contact .days {
     margin: auto 20px;
     text-align: center;
   }
+  .contact h4, .contact h5 {
+    color: #87244C;
+  }
+  .contact a {
+    color: darkslategrey;
+  }
+  .contact a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+  }
   .contact i {
     font-size: 1.5em;
     padding: 4px;
+    color:  #87244C;
   }
 
 /*MAPA*/
@@ -373,16 +388,16 @@ header .row h2 .box {
 /*STOPKA*/
 
 .footer {
+  line-height: 1.3em;
   background-color: #30162B;
   font-size: 6px;
   font-size: 0.6rem;
   color: gray;
   text-align: center;
-  padding: 10px 0; }
+  padding: 5px 0; }
   .footer .fa {
     color: #EA5A5A; }
-  .footer .name {
-    color: white; }
+
 
 
 
@@ -438,7 +453,7 @@ header .row h2 .box {
   position: relative;
   display: block;
   cursor: pointer;
-  padding: 8px 0;
+  padding: 18px ;
   color: #E3E5E6;
   text-decoration: none;
 }
@@ -461,14 +476,14 @@ a:hover{
 }
 .menu a:after {
   right: 0;
-  background: #E3E5E6;
-  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  background: #fff;
+  transition: width 1s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .menu a:hover:before {
-  background: #E3E5E6;
+  background: #fff;
   width: 100%;
-  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .menu a:hover:after {
