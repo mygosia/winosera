@@ -10,13 +10,14 @@
 
 
 * {
-  margin: 0;
+  margin: 0, auto;
   box-sizing: border-box;
   font-family: 'Noto Sans', sans;
   }
 body {
   max-width: 1600px;
   line-height: 1.5em;
+  color:  #696969;
 }
 
 .container {
@@ -27,16 +28,19 @@ body {
 
 h1, h2, h4, h5, h6 {
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+   }
 
 h3 {
   text-transform: uppercase;
   text-align: center;
   padding: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
   font-size: 35px;
   font-weight: 300;
   line-height: 85px;
+  color:  #696969;
 }
 
 h3:before {
@@ -54,10 +58,12 @@ h3:after {
   padding: 0 30px;
 }
 
-
-
 a {
   text-decoration: none; }
+p {
+  margin: 8px;
+  font-size: 17px;
+}
 
 img {
   height: auto;
@@ -66,7 +72,7 @@ img {
 .subtitle {
   width: 70%;
   margin: 0 auto;
-  padding-top: 35px;
+  padding-top: 25px;
   padding-bottom: 20px;
 }
 
@@ -274,8 +280,7 @@ header .row h2 .box {
 
 .onas h6 {
   padding: 15px 0;
-  font-size: 6px;
-  font-size: 0.6rem; }
+ }
 
 
   /*OFERTA*/
@@ -298,7 +303,8 @@ header .row h2 .box {
   transition: 0.7s;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 
 .oferta img {
@@ -311,33 +317,6 @@ header .row h2 .box {
   position: relative;
   z-index: 1; }
 
-/*
-.oferta .row {
-  width: 80%;
-  margin: 0 auto;
-   }
-
-.oferta img {
-  max-height: 200px;
-  max-width: 200px;
-}
-
-
-.oferta .member {
-  padding: 25px; }
-
-  .oferta .member h4 {
-    padding: 8px 0;
-    font-weight: 400; }
-
-  .oferta .member h6 {
-    color: #EA5A5A;
-    text-transform: uppercase; }
-
-  .oferta .member p {
-    padding: 8px 0;
- }
-*/
   /*Kontakt*/
 
   .contact {
@@ -359,11 +338,16 @@ header .row h2 .box {
 
 
   .contact .days {
-    margin: auto 20px;
+    margin: auto 0px;
     text-align: center;
+  }
+  .contact p {
+    text-align: left;
+    padding-left: 40px;
   }
   .contact h4, .contact h5 {
     color: #87244C;
+    margin-bottom: 5px;
   }
   .contact a {
     color: darkslategrey;
@@ -371,10 +355,10 @@ header .row h2 .box {
   .contact a:hover {
     cursor: pointer;
     text-decoration: underline;
-    color: white;
+    color: black;
   }
   .contact i {
-    font-size: 1.5em;
+    font-size: 20px;
     padding: 4px;
     color:  #87244C;
   }
@@ -395,8 +379,9 @@ header .row h2 .box {
   color: gray;
   text-align: center;
   padding: 5px 0; }
-  .footer .fa {
-    color: #EA5A5A; }
+  
+.footer .fa {
+  color: #EA5A5A; }
 
 
 
@@ -562,6 +547,10 @@ a:hover{
 
     nav #menu-button:checked ~ ul {
       display: block; }
+
+.hero h1 {
+  line-height: 1.8em;
+}
  
  h3:after {
   padding: 0px 0;
@@ -570,8 +559,17 @@ a:hover{
   padding: 0px;
  }
 
+ .contact .row {
+  padding: 0px;
+ }
+
+
   .adress, .hours, .phone {
     padding: 20px;
+  }
+
+  .contact h4 {
+    margin-bottom: 0px;
   }
 
   input[type="checkbox"] + label {
