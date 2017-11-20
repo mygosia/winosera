@@ -10,7 +10,7 @@
 
 
 * {
-  margin: 0, auto;
+  margin: 0 auto;
   box-sizing: border-box;
   font-family: 'Noto Sans', sans;
   }
@@ -73,7 +73,7 @@ img {
   width: 70%;
   margin: 0 auto;
   padding-top: 25px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .odwrotnosc {
@@ -288,6 +288,9 @@ header .row h2 .box {
   .oferta [class*="col-"] {
   position: relative; 
 }
+.oferta p {
+  padding: 3px;
+}
 
 .oferta .layer {
   position: absolute;
@@ -305,7 +308,6 @@ header .row h2 .box {
   border-bottom: 1px solid white;
   color: white;
   text-align: center; }
-
 
 .oferta img {
   display: block;
@@ -347,7 +349,9 @@ header .row h2 .box {
   }
   .contact h4, .contact h5 {
     color: #87244C;
-    margin-bottom: 5px;
+  }
+  .contact h5 {
+    margin-top: 30px;
   }
   .contact a {
     color: darkslategrey;
@@ -372,16 +376,16 @@ header .row h2 .box {
 /*STOPKA*/
 
 .footer {
-  line-height: 1.3em;
+  line-height: 1em;
   background-color: #30162B;
-  font-size: 6px;
-  font-size: 0.6rem;
   color: gray;
   text-align: center;
-  padding: 5px 0; }
-  
+  padding: 2px 0; }
 .footer .fa {
   color: #EA5A5A; }
+.footer p {
+   font-size: 9px;
+}
 
 
 
@@ -568,8 +572,12 @@ a:hover{
     padding: 20px;
   }
 
+  .phone a {
+    text-decoration: underline;
+  }
+
   .contact h4 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   input[type="checkbox"] + label {
